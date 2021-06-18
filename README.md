@@ -22,5 +22,4 @@ Had them seperated on github but merged them into this repo, enjoy.
 
 
 ## Contact
-Created by [@RussellCarey](https://twitter.com/russellcareyy) - feel free to contact me about the project
-https://github.com/RussellCarey/Various-early/blob/master/gifs/1.gif
+Created by [@RussellCarey](https://twitter.com/russellcareyy) - feel free to contact me about the project!

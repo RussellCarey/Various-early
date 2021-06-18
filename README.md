@@ -1,5 +1,5 @@
 # Various website
-A small collection of the earliest websites I made when learning HTML and CSS using Front End Mentor challenges, some finished, some unfinished.
+A small collection of the earliest websites I made when learning HTML and CSS in 2020. These are Front End Mentor challenges, some finished, some unfinished.
 Had them seperated on github but merged them into this repo, enjoy.
 
 ![alt text](https://github.com/RussellCarey/Various-early/blob/master/gifs/1.gif)

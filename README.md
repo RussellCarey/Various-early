@@ -2,11 +2,13 @@
 A small collection of the earliest websites I made when learning HTML and CSS. Some are Front End Mentor challenges, some finished, some unfinished.
 Had them seperated on github but merged them into this repo, enjoy.
 
-Even though the travel and white cafe (first two) sites have front end mentor in the link, they were my own design.
+Even though the travel, web dev and white cafe (first three) sites have front end mentor in the link, they were my own design.
 
 ![alt text](https://github.com/RussellCarey/Various-early/blob/master/gifs/8.gif)
 
 ![alt text](https://github.com/RussellCarey/Various-early/blob/master/gifs/1.gif)
+
+![alt text](https://github.com/RussellCarey/Various-early/blob/master/gifs/9.gif)
 
 ![alt text](https://github.com/RussellCarey/Various-early/blob/master/gifs/2.gif)
 
@@ -21,8 +23,6 @@ Even though the travel and white cafe (first two) sites have front end mentor in
 ![alt text](https://github.com/RussellCarey/Various-early/blob/master/gifs/7.gif)
 
 
-
-![alt text](https://github.com/RussellCarey/Various-early/blob/master/gifs/9.gif)
 
 
 ## Contact

@@ -1,5 +1,5 @@
-# Various website
-A small collection of the earliest websites I made when learning HTML and CSS in 2020. These are Front End Mentor challenges, some finished, some unfinished.
+# Various websites (from 2020)
+A small collection of the earliest websites I made when learning HTML and CSS. These are Front End Mentor challenges, some finished, some unfinished.
 Had them seperated on github but merged them into this repo, enjoy.
 
 Even though the travel and white cafe (first two) sites have front end mentor in the link, they were my own design.

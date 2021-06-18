@@ -2,6 +2,8 @@
 A small collection of the earliest websites I made when learning HTML and CSS in 2020. These are Front End Mentor challenges, some finished, some unfinished.
 Had them seperated on github but merged them into this repo, enjoy.
 
+Even thought the travel and white cafe site have front end mentor in the link, they were my own design.
+
 ![alt text](https://github.com/RussellCarey/Various-early/blob/master/gifs/1.gif)
 
 ![alt text](https://github.com/RussellCarey/Various-early/blob/master/gifs/2.gif)

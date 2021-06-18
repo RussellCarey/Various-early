@@ -1,0 +1,212 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+:root 
+{
+    --boxBackground: #252a41;
+    --globalColor: #fff;
+    --textColor: hsl(228, 34%, 66%);
+    --bg: #1e202a;
+}
+
+body
+{
+ margin: 40px 150px 100px 150px; 
+ font-family: 'Inter', sans-serif;
+ background-color: var(--bg);
+ color: var(--globalColor);
+}
+
+/* Sections of website */
+.topBar
+{
+    margin: 30px 0;
+
+}
+
+.mainBar
+{
+    margin: 10px 0 30px 0;
+}
+
+.secondBar
+{
+    margin: 10px 0 30px 0;
+}
+
+.lastBar
+{
+    margin: 30px 0;
+}
+
+
+/* Borders */
+#facebookBorder
+{
+    border-top: solid;
+    border-width: 4px;
+    border-color: hsl(210, 78%, 56%);
+}
+
+#twitterBorder
+{
+    border-top: solid;
+    border-width: 4px;
+    border-color: hsl(195, 100%, 50%)
+}
+
+#instaBorder
+{
+    border-top: solid;
+    border-width: 4px;
+    border-color: rgb(215, 155, 45);
+    /*linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));*/
+}
+
+#youtubeBorder
+{
+    border-top: solid;
+    border-width: 4px;
+    border-color: hsl(348, 97%, 39%);
+}
+
+
+
+/* Boxes */
+.smallBoxes
+{
+    background-color: var(--boxBackground);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.largeBoxes
+{
+    background-color: var(--boxBackground);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.smallBoxes:hover .largeBoxes:hover
+{
+    background-color: var(--lightBoxColor);
+}
+
+
+
+/* Fonts */
+.lineSpaced
+{
+    font-size: 12px;
+    padding-bottom: 10px;
+    letter-spacing: 4px;
+    color: var(--textColor);
+   
+}
+
+.smallP
+{
+ font-size: 11px;
+ font-weight: lighter;
+ color: var(--textColor);
+ font-weight: bold;
+}
+
+.smallerP
+{
+    font-size: 9.5px;
+    color: hsl(163, 72%, 41%);
+    font-weight: bolder;
+}
+
+.pRed
+{
+    color: hsl(356, 69%, 56%);
+
+}
+
+h1
+{
+    font-weight: 700;
+    margin-bottom: 0;
+    color: var(--globalColor);
+
+}
+
+/* Access the certain thing inside a div */
+.smallBoxes .smallerP, .smallBoxes h2
+{
+    display: inline;
+}
+
+.smallBoxes .smallerP
+{
+    float: right;
+    padding-top: 23px;
+}
+
+.smallBoxes .icons
+{
+    font-size: 160%;
+    padding-top: 1px;
+    float: right;
+}
+
+
+
+@media (max-width: 1028px)
+
+{
+
+    body
+    {
+        margin: 10px;
+        font-family: 'Inter', sans-serif;
+        background-color: var(--bg);
+        color: var(--globalColor);
+    }
+    
+    
+    .topBar
+    {
+        margin: 10px 0;
+    }
+    
+    .mainBar
+    {
+        margin: 10px 0 30px 0;
+    }
+    
+    .secondBar
+    {
+        margin: 10px 0 30px 0;
+    }
+    
+    .lastBar
+    {
+        margin: 10px 0;
+    }
+
+    .smallBoxes
+    {
+        background-color: var(--boxBackground);
+        border-radius: 10px;
+        padding: 20px;
+        margin: 5px;
+    }
+    
+    .largeBoxes
+    {
+        background-color: var(--boxBackground);
+        border-radius: 5px;
+        padding: 20px;
+        text-align: center;
+        margin: 5px;
+    }
+
+
+}

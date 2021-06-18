@@ -1,0 +1,223 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color:hsl(0, 100%, 74%);
+    margin: 70px 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a
+{
+    color:hsl(0, 100%, 74%); ;
+}
+
+a:hover
+{
+    color:hsl(248, 32%, 51%);
+}
+
+.bg-image
+{
+    opacity: 70%;
+
+    /* THIS MAKE THE IMAGE FULL AND FITTING */
+    min-height: 100%;
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+h1,h2,h3,h4,h5,h6,p
+{
+    color:white;
+    padding: 0;
+    margin: 0;
+}
+
+h1
+{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+h6
+{
+    text-align: center;
+    font-size: 10px;
+    color: grey;
+}
+
+.left-textbox
+{
+ padding: 170px 50px;
+}
+
+.right-textbox
+{
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.form-area
+{
+  background-color: white;
+  padding: 40px 50px 50px 40px;
+  border-radius: 20px;
+
+   /* x y blur color - the .2 is the opacity*/
+   box-shadow: 0px 5px 1px rgba(0,0,0,.2);
+}
+
+.form-box
+{
+    margin: 10px 10px;
+    border-radius: 3px;
+    width: 100%;
+    padding: 5px;
+    border-width: 1px;
+    border-style: solid;
+    font-weight: 400;
+    text-indent: 10px;
+}
+
+.form-box:hover
+{
+    margin: 10px 10px;
+    border-radius: 3px;
+    border-color: hsl(248, 32%, 51%);
+    width: 100%;
+    padding: 5px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+.purple-box
+{
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    padding: 2%;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0px 5px 1px rgba(0,0,0,.2);
+}
+
+.green-box
+{
+    width: 100%;
+    border-style: none;
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 10px;
+    padding: 3%;
+    text-align: center;
+    box-shadow: 0px 5px 1px rgba(0,0,0,.2);
+    margin-bottom: 20px;
+}
+
+.green-box:hover
+{
+    transform: translateY(-3px);
+
+    /* x y blur color - the .2 is the opacity*/
+    box-shadow: 0px 5px 6px rgba(0,0,0,.2);
+}
+
+.green-box:active
+{
+    transform: translateY(1px);
+
+    /* x y blur color - the .2 is the opacity*/
+    box-shadow: 0px 5px 6px rgba(0,0,0,.2);
+}
+
+@keyframes green-button
+{
+    0%
+    {
+        transform: scale(100%);
+    }
+
+    50%
+    {
+
+    }
+
+    100%
+    {
+        transform: scale(110%);
+    }
+}
+
+.hidden
+{
+    visibility: hidden;
+}
+
+.visable
+{
+    visibility: visible;
+}
+
+
+
+@media (max-width: 420px)
+{
+    body
+    {
+        background-color:hsl(0, 100%, 74%);
+        margin: 20px 30px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .left-textbox
+        {
+            text-align: center;
+            padding: 20px 20px;
+            margin: 20px;
+        }
+
+    .right-textbox
+        {
+            border-radius: 10px;
+            margin-right: 0px;
+        }
+}
+
+@media (min-width: 421px) and (max-width: 1000px)
+{
+    
+    body
+    {
+        background-color:hsl(0, 100%, 74%);
+        margin: 20px 30px;
+        padding: 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .left-textbox
+        {
+            text-align: center;
+            padding: 100px 0px 0px 0px;
+            margin: 0;
+        }
+
+    .right-textbox
+        {
+            border-radius: 10px;
+            margin-right: 0px;
+        }
+}
+

@@ -1,0 +1,191 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    font-family: 'Karla', sans-serif;
+}
+
+h1
+{
+    font-size: 60px;
+    font-family: 'DM Serif Display', serif;
+}
+
+hr
+{
+    border-top: 1px solid hsl(256, 26%, 20%);
+}
+
+/* Nav BARRRR */
+.navBar
+{
+
+    background-color: white;
+    margin: 20px 150px 30px 150px;
+    vertical-align: middle;
+}
+
+.navBarLogo
+{
+    padding-top: 6px;
+    width: 8%;
+    height: auto;
+}
+
+.navBarText
+{
+    float: right;
+    text-transform: uppercase;
+}
+
+.navBarText p
+{
+    display: inline;
+    margin: 0px 20px;
+    font-size: 12px;
+    color: grey;
+}
+
+.nav-btn
+{
+   background-color: white;
+   border-style: solid;
+   border: solid;
+   border-color: hsl(256, 26%, 20%);
+   border-width: 2px;
+   color: grey;
+   padding: 10px 30px;
+   display: inline;
+   font-size: 12px;
+   margin: 0px 20px;
+}
+
+/* Heading Box */
+#headingArea
+{
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+
+}
+
+#headingArea hr
+{
+    margin: 50px 00px;
+    border-top: 1px solid white;
+    width: 40%;
+}
+
+#headingText
+{
+    padding: 90px 100px 100px 150px;
+}
+
+
+
+#headingImage
+{
+    position: absolute;
+    width: 70%;
+    top: 100px;
+    left: 10%;
+}
+
+/* Bottom Area */
+
+.differentHeading h1
+{
+    margin-bottom: 50px;
+    color: rgb(23, 23, 23);
+}
+
+.differentHeading hr
+{
+    width: 25%;
+    padding-bottom: 40px;
+    color: hsl(267, 26%, 35%)
+}
+
+.bottomSection
+{
+    margin: 325px 150px 150px 150px;
+}
+
+.smallImages
+{
+    width: 60px;
+    height: auto;
+    margin: 30px;
+}
+
+.findOutMore
+{
+    background-color: hsl(256, 26%, 20%);
+    padding: 50px 60px;
+    margin-top: 150px;
+}
+
+.findOutMore h1
+{
+    display: inline-block;
+    color: white
+}
+
+.findOutMore .plans-btn
+{
+   float: right;
+   padding: 10px 50px;
+}
+
+.plans-btn
+{
+   margin-top: 35px;
+   background-color: hsl(256, 26%, 20%);
+   border-style: solid;
+   border: 1px solid white;
+   color: white;
+   padding: 10px;
+}
+
+
+
+
+
+/* Footer area */
+.footerLinks
+{
+    background-color: hsl(0, 0%, 98%);
+}
+
+.footerLinks .navBarLogo
+{
+    height: 60%;
+    width: auto;
+}
+
+.footerTopBar
+{
+    padding-bottom: 20px;
+}
+.socialIcons
+{
+    display: inline;
+    font-size: 20px;
+    color: grey;
+    margin: 5px 15px 0 15px;
+    float: right;
+    
+}
+
+.footerTextArea
+{
+    margin: 0px 150px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    color: hsl(256, 26%, 20%);
+    line-height: 30px;
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <script src="https://kit.fontawesome.com/0561e3b384.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+  <div class="container-fluid">
+
+    <div class="topBar row">
+      <div class="col-md-10 col-sm-9">
+        Social Media Dashboard <br>
+        <p class="smallP">Total Followers: 23,004</p>
+      </div>
+
+      <div class="col-md-2 col-sm-3">
+        <div class="custom-control custom-switch">
+          <input type="checkbox" class="custom-control-input" id="customSwitch1" onclick="getValue()">
+          <label class="custom-control-label" for="customSwitch1"> <p class="smallP">Dark or Light?</p></label>
+        </div>
+     </div>
+    </div>
+
+
+    <div class="mainBar row">
+      <div class="col-md-3 col-sm-12">
+        <div class="largeBoxes" id="facebookBorder">
+        <p class="smallP"> <i class="icons fab fa-facebook-square"></i> @nathanf</p>
+        <h1>1987</h1>
+        <p class="lineSpaced">FOLLOWERS</p>
+        <p class="smallerP"> <i class="fas fa-caret-up"></i>12 Today</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-12">
+        <div class="largeBoxes" id="twitterBorder">     
+          <p class="smallP"> <i class="icons fab fa-twitter-square"></i> @nathanf</p>
+         <h1>1044</h1>
+         <p class="lineSpaced">FOLLOWERS</p>
+          <p class="smallerP"> <i class="fas fa-caret-up"></i>99 Today</p>
+        </div>
+   
+      </div>
+
+      <div class="col-md-3 col-sm-12 col-sm-12">
+        <div class="largeBoxes" id="instaBorder"> 
+          <p class="smallP"> <i class="icons fab fa-instagram-square"></i> @realnathanf
+            <h1>11k</h1>
+            <p class="lineSpaced">FOLLOWERS</p>
+          <p class="smallerP"> <i class="fas fa-caret-up"></i>1099 Today</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-12">
+        <div class="largeBoxes" id="youtubeBorder">   
+          <p class="smallP"> <i class="icons fab fa-youtube-square"></i> Nathan F.</p>
+          <h1>8239</h1>
+          <p class="lineSpaced">SUBSCRIBERS</p>
+          <p class="smallerP"> <i class="fas fa-caret-up"></i> 144 Today</p>
+        </div>
+     
+      </div>
+    </div>
+
+    <div class="col-md-10 col-sm-12">
+      Overview - Today
+    </div>
+
+    <div class="secondBar row">
+      <div class="col-md-3 col-sm-12">
+        <div class="smallBoxes">   
+        <p class="smallP">Page Views <i class="icons fab fa-facebook-square"></i> </p>
+        <h2>87</h2>
+        <p class="smallerP"> <i class="fas fa-caret-up"></i>3%</p>
+      </div>
+    </div>
+      
+      <div class="col-md-3 col-sm-12">
+        <div class="smallBoxes">   
+        <p class="smallP">Likes <i class="icons fab fa-facebook-square"></i> </p>
+        <h2>52</h2>
+        <p class="smallerP pRed"> <i class="fas fa-caret-down"></i>2%</p>
+      </div>
+      </div>
+
+      <div class="col-md-3 col-sm-12">
+        <div class="smallBoxes">   
+        <p class="smallP">Likes <i class="icons fab fa-instagram-square"></i> </p>
+        <h2>5462</h2>
+        <p class="smallerP"> <i class="fas fa-caret-up"></i>2257%</p>
+      </div>
+      </div>
+
+      <div class="col-md-3 col-sm-12">
+        <div class="smallBoxes">   
+        <p class="smallP">Profile Views <i class="icons fab fa-instagram-square"></i>  </p>
+        <h2>2k</h2>
+        <p class="smallerP"> <i class="fas fa-caret-up"></i>1375%</p>
+      </div>
+      </div>
+    </div>
+
+
+    <div class="lastBar row">
+      <div class="col-md-3 col-sm-12">
+        <div class="smallBoxes">   
+        <p class="smallP">Retweets <i class="icons fab fa-twitter-square"></i> </p>
+        <h2>117</h2>
+        <p class="smallerP"> <i class="fas fa-caret-up"></i>303%</p>
+      </div>
+      </div>
+
+      <div class="col-md-3 col-sm-12">
+        <div class="smallBoxes">   
+        <p class="smallP">Likes <i class="icons fab fa-twitter-square"></i> </p>
+        <h2>507</h2>
+        <p class="smallerP"> <i class="fas fa-caret-up"></i>553%</p>
+      </div>
+      </div>
+
+      <div class="col-md-3 col-sm-12">
+        <div class="smallBoxes">   
+        <p class="smallP">Likes <i class="icons fab fa-youtube-square"> </i></p>
+        <h2>107</h2>
+        <p class="smallerP pRed"> <i class="fas fa-caret-down"></i>19%</p>
+      </div>
+      </div>
+
+      <div class="col-md-3 col-sm-12">
+        <div class="smallBoxes">   
+        <p class="smallP">Total Views <i class="icons fab fa-youtube-square"></i></p>
+        <h2>1407</h2>
+        <p class="smallerP pRed"> <i class="fas fa-caret-down"></i>12</p>
+      </div>
+      </div>
+     </div>
+
+  </div>
+
+
+
+ <script>
+
+
+function getValue() {
+
+   var isChecked = document.getElementById("customSwitch1").checked;
+   const root = document.documentElement;
+    
+   if(isChecked)
+   {
+
+    root.style.setProperty("--bg", "#1e202a");
+    root.style.setProperty("--boxBackground", "#252a41");
+    root.style.setProperty("--textColor", "hsl(228, 34%, 66%)");
+    root.style.setProperty("--globalColor", "#fff");
+
+
+    console.log("dark");
+
+
+
+
+   } 
+   else 
+   {
+    root.style.setProperty("--bg", "#fff");
+    root.style.setProperty("--boxBackground", "hsl(227, 47%, 96%)");
+    root.style.setProperty("--textColor", "hsl(228, 12%, 44%)");
+    root.style.setProperty("--globalColor", "hsl(230, 17%, 14%)");
+
+
+ 
+
+    console.log("light");
+   }
+
+
+
+
+}
+
+
+
+ </script>
+
+ 
+
+  
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+  
+
+ 
+
+  
+
+  
+
+  
+
+ 
+
+ 
+  
+
+</body>
+</html>
